@@ -26,7 +26,7 @@ public class Sarray {
 		{
 			for(int j=0;j<2;j++)
 			{
-				dim2[i][j] = dim2[i][j]*dim2[i][j];
+				dim2[i][j] = dim2[i][j]+dim2[i][j];
 				System.out.println(dim2[i][j]+ "  ");
 				
 			}
